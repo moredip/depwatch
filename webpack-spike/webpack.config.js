@@ -2,18 +2,13 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: [
-      'webpack/hot/poll',
+      'webpack/hot/poll?500',
       "./entry.js"
     ],
     target: 'node',
     output: {
         path: __dirname+"/build",
         filename: "bundle.js"
-    },
-    module: {
-        loaders: [
-            //{ test: /\.css$/, loader: "style!css" }
-        ]
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin()

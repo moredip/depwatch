@@ -1,3 +1,3 @@
 module.exports = function add(a,b){
-  return a+b+0;
+  return a+b;
 }
