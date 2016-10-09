@@ -1,9 +1,5 @@
-function it(testDescription,testFn){
-  console.log('~> Running:',testDescription);
-  testFn();
-  console.log('~> Done');
-}
+const freshtest = require('./freshtest');
 
-global.it = it;
-
-require('./test/test');
+freshtest(function(){
+  require('./test/test');
+});
