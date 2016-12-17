@@ -1,10 +1,8 @@
 "use strict";
 
-const path = require('path');
-
 const depwatch = require('./depwatch/runtime');
 
-// hack
+// fake test runner
 global.describe = function(name){ console.log('running', name) }
 
 depwatch.start(module, function () {
