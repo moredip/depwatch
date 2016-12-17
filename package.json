@@ -1,11 +1,23 @@
 {
   "scripts": {
-    "start": "node depwatch/watch.js"
+    "example": "cd example && node ../bin/depwatch.js webpack.config.js"
   },
   "dependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.1.0",
-    "webpack": "^1.13.2",
-    "webpack-dev-server": "^1.16.2"
-  }
+    "webpack": "^1.13.2"
+  },
+  "name": "depwatch",
+  "description": "An dependency-aware file watcher, powered by webpack",
+  "version": "0.1.0",
+	"bin": "./bin/depwatch.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moredip/depwatch.git"
+  },
+  "author": "Pete Hodgson",
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/moredip/depwatch/issues"
+  },
+  "homepage": "https://github.com/moredip/depwatch#readme"
 }

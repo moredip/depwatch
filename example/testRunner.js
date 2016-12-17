@@ -1,6 +1,6 @@
 "use strict";
 
-const depwatch = require('./depwatch/runtime');
+const depwatch = require('../lib');
 
 // fake test runner
 global.describe = function(name){ console.log('running', name) }
