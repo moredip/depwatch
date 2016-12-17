@@ -11,5 +11,8 @@ module.exports = {
     },
     plugins: [
       new webpack.HotModuleReplacementPlugin()
-    ]      
+    ],
+    watchOptions: {
+      ignored: /node_modules/
+    }
 };

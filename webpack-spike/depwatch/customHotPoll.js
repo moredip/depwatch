@@ -1,5 +1,5 @@
 module.exports = function startHotPoll(pollInterval){
-  pollInterval = pollInterval || 1000;
+  pollInterval = pollInterval || 100;
 
   if( !module.hot ){
     console.error('HOT RELOADING NOT AVAILABLE');

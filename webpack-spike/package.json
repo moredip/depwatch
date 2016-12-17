@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "webpack",
+    "start": "webpack --watch",
     "test": "mocha build/bundle.js"
   },
   "dependencies": {
