@@ -2,9 +2,6 @@
 
 const runHotPoll = require('./customHotPoll');
 
-const chai = require('chai');
-global.expect = chai.expect;
-
 // hack
 global.describe = function(name){ console.log('running', name) }
 
