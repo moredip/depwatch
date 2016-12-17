@@ -1,3 +1,3 @@
-#!/usr/bin/env node debug
+#!/usr/bin/env node
 
 require('../lib/cli')();
