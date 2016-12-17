@@ -1,4 +1,4 @@
-const runHotPoll = require('./depwatch/customHotPoll');
+const runHotPoll = require('./customHotPoll');
 
 module.exports = {
   start: start
