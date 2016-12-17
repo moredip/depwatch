@@ -2,7 +2,7 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: [
-      "./entry.js"
+      "./testRunner.js"
     ],
     target: 'node',
     output: {
