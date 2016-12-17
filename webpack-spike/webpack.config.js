@@ -2,7 +2,6 @@ const webpack = require('webpack');
 
 module.exports = {
     entry: [
-      'webpack/hot/poll?500',
       "./entry.js"
     ],
     target: 'node',

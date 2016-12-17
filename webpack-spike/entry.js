@@ -1,5 +1,7 @@
 "use strict";
 
+const runHotPoll = require('./customHotPoll');
+
 const chai = require('chai');
 global.expect = chai.expect;
 
@@ -20,6 +22,8 @@ if (module.hot) {
     //modules
     loadAll( requireTests() );
   });
+
+  runHotPoll();
 }
 
 function requireTests(){
