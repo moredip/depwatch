@@ -9,9 +9,9 @@ function start(hostModule,createContext){
   loadAll(context);
 
   if (hostModule.hot) {
-    console.log('depwatch starting');
+    //console.log('depwatch starting');
 
-    console.log('registering accept for module', context.id);
+    //console.log('registering accept for module', context.id);
     hostModule.hot.accept(context.id, function () {
       debugger
       //You can't use context here. You _need_ to call require.context again to

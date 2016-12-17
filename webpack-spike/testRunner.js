@@ -2,7 +2,7 @@
 
 const path = require('path');
 
-const depwatch = require('./depwatch');
+const depwatch = require('./depwatch/runtime');
 
 // hack
 global.describe = function(name){ console.log('running', name) }

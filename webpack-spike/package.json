@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "start": "webpack --watch",
-    "test": "mocha build/bundle.js"
+    "start": "node depwatch/watch.js"
   },
   "dependencies": {
     "chai": "^3.5.0",
