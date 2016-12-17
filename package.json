@@ -7,8 +7,8 @@
   },
   "name": "depwatch",
   "description": "An dependency-aware file watcher, powered by webpack",
-  "version": "0.1.0",
-	"bin": "./bin/depwatch.js",
+  "version": "0.1.1",
+  "bin": "./bin/depwatch.js",
   "devDependencies": {},
   "repository": {
     "type": "git",
