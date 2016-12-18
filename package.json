@@ -8,7 +8,7 @@
   "main": "lib/index.js",
   "name": "depwatch",
   "description": "An dependency-aware file watcher, powered by webpack",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "bin": "./bin/depwatch.js",
   "devDependencies": {},
   "repository": {
